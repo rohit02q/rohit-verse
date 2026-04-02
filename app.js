@@ -1,7 +1,7 @@
 // ! Content Data
 const MYSELF = {
     name: 'Rohit',
-    about: `I am a Class 12 student from Bihar and a passionate self-taught developer with strong problem-solving skills. I have qualified RMO (Bihar North), which reflects my deep interest in mathematics and analytical thinking. I specialize in full-stack web development using modern technologies like JavaScript, Node.js, and Express. I enjoy building real-world SaaS products, exploring AI/ML, and constantly pushing my limits by solving challenging problems and participating in competitive environments.`,
+    about: `I am a Class 12 student from Bihar and a passionate self-taught developer with strong problem-solving skills. I specialize in full-stack web development using modern technologies like JavaScript, Node.js, and Express. I enjoy building real-world SaaS products, and constantly pushing my limits by solving challenging problems.`,
     
     aboutTags: [
         'Class 12 Student',
@@ -14,7 +14,7 @@ const MYSELF = {
     projects: [
         {
             title: 'Nexora Test App',
-            body: "A full SaaS-based platform where users can create, share, and attempt quizzes/tests. Includes authentication, test management, leaderboard, and explore section for community challenges.",
+            body: "A full SaaS-based platform where users can create, share, and attempt quizzes/tests.",
             techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
             sourceCode: 'https://github.com/your-username/nexora',
             previewLink: 'https://nexaq.vercel.app'
@@ -157,9 +157,9 @@ function Skills() {
             <div class="skill-cards">
             ${MYSELF.skills.map(skill => {
         return `
-        <div style="--complete:${skill.completed}">
+        <div style="--complete:${skill.completed}%">
             <p>${skill.name}</p>
-            <span>${skill.completed}</span>
+            <span>${skill.completed}%</span>
         </div>
         `
     }).join('')}
