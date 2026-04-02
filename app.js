@@ -6,9 +6,8 @@ const MYSELF = {
     aboutTags: [
         'Class 12 Student',
         'Full Stack Web Developer',
-        'RMO Qualified (Bihar North)',
+        'RMO Qualified',
         'Problem Solver',
-        'AI/ML Enthusiast'
     ],
 
     projects: [
