@@ -1,75 +1,97 @@
 // ! Content Data
 const MYSELF = {
     name: 'Rohit',
-    about: `Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum praesentium sed, cupiditatequia aspernatur ratione placeat suscipit assumenda libero maiores ea et non nesciunt ipsam fugititaque ipsum dolore!`,
-    aboutTags: ['Study in 12th standard', 'Web Developer', 'Olympiad cracker', 'AI Master'],
+    about: `I am a Class 12 student from Bihar and a passionate self-taught developer with strong problem-solving skills. I have qualified RMO (Bihar North), which reflects my deep interest in mathematics and analytical thinking. I specialize in full-stack web development using modern technologies like JavaScript, Node.js, and Express. I enjoy building real-world SaaS products, exploring AI/ML, and constantly pushing my limits by solving challenging problems and participating in competitive environments.`,
+    
+    aboutTags: [
+        'Class 12 Student',
+        'Full Stack Web Developer',
+        'RMO Qualified (Bihar North)',
+        'Problem Solver',
+        'AI/ML Enthusiast'
+    ],
+
     projects: [
         {
             title: 'Nexora Test App',
-            body: "This is a SaaS level project you can create tests, quizzes and share it with your friends challenge them and attempt other tests in explore page",
-            sourceCode: '/',
+            body: "A full SaaS-based platform where users can create, share, and attempt quizzes/tests. Includes authentication, test management, leaderboard, and explore section for community challenges.",
+            techStack: ['React', 'Node.js', 'Express', 'MongoDB'],
+            sourceCode: 'https://github.com/your-username/nexora',
             previewLink: 'https://nexaq.vercel.app'
         },
         {
-            title: 'Demo project 1',
-            body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum praesentium sed, cupiditatequia",
+            title: 'AI ML Model',
+            body: "A machine learning project focused on predictive analysis using Python. Implemented data preprocessing, model training, and evaluation.",
+            techStack: ['Python', 'NumPy', 'Pandas', 'Scikit-learn'],
             sourceCode: '/',
             previewLink: '/'
         },
         {
-            title: 'Al ML Model',
-            body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum praesentium sed, cupiditatequia",
+            title: 'Portfolio Website',
+            body: "A modern personal portfolio website showcasing projects, skills, and achievements with responsive UI and smooth animations.",
+            techStack: ['HTML', 'CSS', 'JavaScript'],
             sourceCode: '/',
             previewLink: '/'
         },
         {
-            title: 'Portfolio',
-            body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum praesentium sed, cupiditatequia",
+            title: 'PW XP Hack',
+            body: "A creative hack/project built to optimize or explore PW XP system with custom logic and automation ideas.",
+            techStack: ['JavaScript'],
             sourceCode: '/',
             previewLink: '/'
         },
         {
-            title: 'PW XP hack',
-            body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum praesentium sed, cupiditatequia",
+            title: 'Demo Project 1',
+            body: "A practice project to strengthen frontend and backend integration concepts.",
+            techStack: ['HTML', 'CSS', 'JS'],
             sourceCode: '/',
             previewLink: '/'
         },
         {
             title: 'Demo Project 2',
-            body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum praesentium sed, cupiditatequia",
+            body: "Experimental project focused on UI design and responsiveness.",
+            techStack: ['CSS', 'JavaScript'],
             sourceCode: '/',
             previewLink: '/'
-        },
-        {
-            title: 'Demo Project 3',
-            body: "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Velit nostrum praesentium sed, cupiditatequia",
-            sourceCode: '/',
-            previewLink: '/'
-        },
+        }
     ],
+
     skills: [
         {
-            name: "Ennlish Speaking",
-            completed: '40%'
+            name: "English Communication",
+            completed: 40
         },
         {
-            name: "Web Developer",
-            completed: '80%'
+            name: "Full Stack Web Development",
+            completed: 80
         },
         {
-            name: "Editing",
-            completed: '30%'
+            name: "Video Editing",
+            completed: 30
         },
         {
-            name: "Math Solver",
-            completed: '95%'
+            name: "Mathematics & Problem Solving",
+            completed: 95
         },
         {
-            name: "AI & ML",
-            completed: '30%'
-        },
-    ]
-}
+            name: "AI & Machine Learning",
+            completed: 30
+        }
+    ],
+
+    achievements: [
+        "Qualified RMO (Bihar North)",
+        "Built a SaaS-based quiz platform (Nexora)",
+        "Strong foundation in Data Structures & Problem Solving",
+        "Self-taught developer with multiple real-world projects"
+    ],
+
+    contact: {
+        email: 'your-email@example.com',
+        github: 'https://github.com/your-username',
+        linkedin: 'https://linkedin.com/in/your-profile'
+    }
+};
 // ! Routing System
 function router() {
     const routes = {
