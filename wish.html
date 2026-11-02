@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#090b20">
+<title>Happy Birthday Rohit 🎂</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+:root{--bg:#090b20;--pink:#ff5e9c;--violet:#9b7bff;--cyan:#65e7e0;--white:#f7f5ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--white);font-family:'DM Sans',sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 15% 15%,#5832a333,transparent 32%),radial-gradient(circle at 85% 30%,#ff4f8a22,transparent 30%),radial-gradient(circle at 50% 90%,#2dd4bf1a,transparent 35%);z-index:-2}
+#stars{position:fixed;inset:0;z-index:-1;pointer-events:none;background-image:radial-gradient(2px 2px at 20% 30%,#ffffff99 40%,transparent),radial-gradient(1px 1px at 70% 20%,#ffffff88 40%,transparent),radial-gradient(2px 2px at 80% 75%,#ffffff77 40%,transparent),radial-gradient(1px 1px at 35% 80%,#ffffff99 40%,transparent);background-size:260px 220px;opacity:.6}
+nav{max-width:1100px;margin:auto;padding:22px 24px;display:flex;justify-content:space-between;align-items:center}.brand{font:700 18px 'Space Grotesk';letter-spacing:.3px}.brand span{color:var(--pink)}.pill{border:1px solid #ffffff25;border-radius:30px;padding:9px 14px;color:#d8d4ee;font-size:12px;letter-spacing:1px}
+main{max-width:1100px;margin:auto;padding:20px 24px 80px}.hero{min-height:76vh;display:grid;place-items:center;text-align:center;position:relative;padding:50px 0 70px}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:9px 14px;border:1px solid #ffffff22;border-radius:30px;background:#ffffff09;color:#dcd6f7;font-size:12px;letter-spacing:1.7px;text-transform:uppercase}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 14px var(--cyan)}
+h1{font:700 clamp(54px,10vw,112px)/.98 'Space Grotesk';margin:27px 0 18px;letter-spacing:-5px}
+.gradient{background:linear-gradient(100deg,#fff 5%,#ff8fbd 43%,#a995ff 75%,#7cf2e5);background-clip:text;-webkit-background-clip:text;color:transparent}
+.subtitle{max-width:570px;margin:0 auto;color:#b8b5d0;font-size:clamp(15px,2vw,18px);line-height:1.7}
+.actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:30px}
+button{font:600 14px 'DM Sans';border:0;cursor:pointer;transition:.22s}
+.primary{padding:15px 22px;border-radius:14px;color:#180e28;background:linear-gradient(110deg,#ff8fbd,#b8a1ff);box-shadow:0 10px 35px #d86ca944}
+.secondary{padding:14px 20px;border-radius:14px;color:#f7f5ff;background:#ffffff0b;border:1px solid #ffffff25}
+button:hover{transform:translateY(-3px);filter:brightness(1.08)}button:active{transform:scale(.97)}
+.float{position:absolute;font-size:clamp(24px,4vw,42px);animation:bob 4s ease-in-out infinite;filter:drop-shadow(0 8px 20px #ff6ca633)}.f1{left:8%;top:22%}.f2{right:9%;top:25%;animation-delay:1s}.f3{left:14%;bottom:15%;animation-delay:2s}.f4{right:13%;bottom:13%;animation-delay:.5s}
+@keyframes bob{50%{transform:translateY(-16px) rotate(8deg)}}
+.section{margin:30px 0 70px}.section-head{text-align:center;margin-bottom:25px}.kicker{color:var(--pink);font-size:11px;letter-spacing:2.5px;text-transform:uppercase;font-weight:700}.section h2{font:700 clamp(28px,5vw,42px) 'Space Grotesk';margin:9px 0}.muted{color:#aaa7c5;line-height:1.65}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.card{padding:24px;border:1px solid #ffffff18;background:linear-gradient(145deg,#ffffff10,#ffffff04);border-radius:22px;min-height:175px;backdrop-filter:blur(12px);transition:.25s}.card:hover{transform:translateY(-5px);border-color:#ff8fbd66}.card .emoji{font-size:29px}.card h3{font:600 18px 'Space Grotesk';margin:14px 0 7px}.card p{font-size:13px;color:#aaa7c5;line-height:1.6;margin:0}
+.reveal{max-width:720px;margin:auto;text-align:center;padding:35px 25px;border:1px solid #ffffff20;border-radius:26px;background:linear-gradient(140deg,#ffffff10,#ffffff04);box-shadow:0 20px 70px #0003}
+.envelope{font-size:65px;display:block;margin:8px auto 18px;animation:bob 3s infinite}.hidden-message{display:none;margin:20px auto 0;max-width:520px;color:#e6e0ff;line-height:1.8;font-size:16px}.hidden-message.show{display:block;animation:appear .7s ease}
+@keyframes appear{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+.cake-wrap{display:flex;justify-content:center;margin:35px 0 18px}.cake{position:relative;width:150px;height:105px}.cake-base{position:absolute;bottom:0;width:150px;height:65px;border-radius:12px 12px 18px 18px;background:linear-gradient(90deg,#ff78a9,#ffb4ca);box-shadow:inset 0 -9px #e75e91}.icing{position:absolute;top:30px;width:150px;height:24px;background:#fff0f6;border-radius:12px 12px 18px 18px}.icing:after{content:"";position:absolute;left:25px;top:12px;width:14px;height:17px;border-radius:0 0 10px 10px;background:#fff0f6;box-shadow:38px 2px #fff0f6,80px -1px #fff0f6}.candle{position:absolute;top:0;left:68px;width:14px;height:37px;border-radius:5px;background:repeating-linear-gradient(45deg,#fff 0 5px,#9c82ff 5px 10px)}.flame{position:absolute;top:-22px;left:1px;width:12px;height:20px;border-radius:50% 50% 50% 0;transform:rotate(45deg);background:linear-gradient(#fff6a5,#ff9b3d);box-shadow:0 0 20px #ffb34d;animation:flicker .5s infinite alternate}.flame.off{display:none}@keyframes flicker{to{transform:rotate(40deg) scale(.85)}}
+.counter{font:700 36px 'Space Grotesk';color:var(--cyan);margin:12px 0}.tiny{font-size:12px;color:#8986a7}
+footer{text-align:center;padding:25px;color:#777491;font-size:12px;border-top:1px solid #ffffff12}
+#confetti{position:fixed;inset:0;pointer-events:none;z-index:10}
+.toast{position:fixed;bottom:22px;left:50%;transform:translate(-50%,20px);opacity:0;background:#211d3d;border:1px solid #ffffff25;border-radius:14px;padding:12px 18px;font-size:13px;transition:.3s;z-index:20;text-align:center;max-width:90vw}.toast.show{opacity:1;transform:translate(-50%,0)}
+@media(max-width:700px){.grid{grid-template-columns:1fr}.hero{min-height:70vh}.f1{left:1%;top:12%}.f2{right:1%;top:15%}.f3{left:2%;bottom:8%}.f4{right:2%;bottom:7%}h1{letter-spacing:-3px}.card{min-height:unset}}
+
+/* Mobile-first refinements */
+@media (max-width: 600px){
+  body{font-size:15px}
+  nav{padding:16px 18px;gap:10px}
+  .brand{font-size:15px}
+  .pill{font-size:9px;padding:7px 10px;letter-spacing:1px}
+  main{padding:8px 17px 54px}
+  .hero{min-height:calc(100svh - 66px);padding:35px 0 52px}
+  .eyebrow{font-size:9px;padding:8px 11px;letter-spacing:1.3px}
+  h1{font-size:clamp(49px,15vw,76px);line-height:.99;letter-spacing:-3px;margin:24px 0 16px}
+  .subtitle{font-size:14px;line-height:1.65;padding:0 5px;max-width:390px}
+  .actions{width:100%;flex-direction:column;align-items:stretch;gap:10px;margin-top:24px;padding:0 8px}
+  .actions button,.reveal button,.section>button{min-height:48px;width:100%;font-size:13px}
+  .float{font-size:25px;opacity:.85}
+  .f1{left:2%;top:8%}.f2{right:2%;top:10%}.f3{left:3%;bottom:6%}.f4{right:3%;bottom:5%}
+  .section{margin:18px 0 48px}
+  .section-head{margin-bottom:19px}
+  .section h2{font-size:29px;line-height:1.15}
+  .muted{font-size:13px}
+  .grid{grid-template-columns:1fr;gap:11px}
+  .card{padding:19px;border-radius:18px;min-height:0}
+  .card .emoji{font-size:25px}
+  .card h3{font-size:17px;margin:10px 0 5px}
+  .card p{font-size:13px}
+  .reveal{padding:25px 17px;border-radius:21px}
+  .envelope{font-size:56px}
+  .hidden-message{font-size:14px;line-height:1.8}
+  .cake-wrap{margin:28px 0 18px}
+  .counter{font-size:32px}
+  footer{font-size:10px;line-height:1.7;padding:20px 15px}
+}
+@media (max-width:360px){
+  .brand{font-size:13px}.pill{font-size:8px}
+  h1{font-size:48px}
+  .section h2{font-size:26px}
+  main{padding-left:14px;padding-right:14px}
+}
+button:focus-visible{outline:3px solid #65e7e0;outline-offset:3px}
+
+</style>
+</head>
+<body>
+<div id="stars"></div><canvas id="confetti"></canvas><div class="toast" id="toast"></div>
+<nav><div class="brand">ROHIT<span>VERSE</span> ✦</div><div class="pill">A DAY MADE FOR YOU</div></nav>
+<main>
+<section class="hero">
+  <span class="float f1">🎈</span><span class="float f2">✨</span><span class="float f3">🎁</span><span class="float f4">🌙</span>
+  <div>
+    <div class="eyebrow"><span class="dot"></span> TODAY IS YOUR DAY</div>
+    <h1>HAPPY<br><span class="gradient">BIRTHDAY</span><br>ROHIT!</h1>
+    <p class="subtitle">A whole new chapter, another year of memories, madness and moments worth remembering. Today, the spotlight is all yours. 💜</p>
+    <div class="actions"><button class="primary" onclick="celebrate()">LET'S CELEBRATE ✨</button><button class="secondary" onclick="document.getElementById('surprise').scrollIntoView({behavior:'smooth'})">A LITTLE SURPRISE ↓</button></div>
+  </div>
+</section>
+<section class="section">
+  <div class="section-head"><div class="kicker">A few reminders</div><h2>You're one of a kind.</h2><p class="muted">Some things that should always stay true.</p></div>
+  <div class="grid">
+    <article class="card"><div class="emoji">🚀</div><h3>Dream ridiculously big</h3><p>May your next year be full of bold ideas, new adventures and goals that become real.</p></article>
+    <article class="card"><div class="emoji">😂</div><h3>Never lose the madness</h3><p>Keep laughing loud, making memories and turning ordinary days into great stories.</p></article>
+    <article class="card"><div class="emoji">💎</div><h3>Know your worth</h3><p>Keep being genuine. The right people, opportunities and moments will find their way to you.</p></article>
+  </div>
+</section>
+<section class="section" id="surprise">
+  <div class="section-head"><div class="kicker">Secret drop</div><h2>One message. Just for you.</h2><p class="muted">No spoilers. Tap the envelope to open it.</p></div>
+  <div class="reveal"><span class="envelope" id="env">💌</span><h3 style="font:600 21px 'Space Grotesk';margin:0">You've got mail, Rohit!</h3><p class="muted">A birthday note is waiting inside.</p><button class="primary" id="openMsg" onclick="openMessage()">OPEN YOUR SURPRISE</button>
+    <div class="hidden-message" id="message">Rohit, dosti ka matlab sirf saath time spend karna nahi, balki har random moment ko yaadgaar bana dena hai. ❤️<br><br>May this year bring you solid happiness, good health, success and countless reasons to smile. Keep shining, keep growing, and never change the good things that make you YOU.<br><br><b>Happy Birthday, legend! 🥳</b></div>
+  </div>
+</section>
+<section class="section" style="text-align:center">
+  <div class="section-head"><div class="kicker">Make a wish</div><h2>Birthday cake time! 🎂</h2><p class="muted">Close your eyes, make a wish, then blow out the candle.</p></div>
+  <div class="cake-wrap"><div class="cake"><div class="candle"><div class="flame" id="flame"></div></div><div class="icing"></div><div class="cake-base"></div></div></div>
+  <button class="primary" id="blow" onclick="blowCandle()">BLOW THE CANDLE 🕯️</button><div class="tiny" id="wishText" style="margin-top:12px">Your wish is between you and the universe.</div>
+</section>
+<section class="section" style="text-align:center">
+  <div class="section-head"><div class="kicker">The birthday energy</div><h2>100% main character today</h2></div>
+  <div class="counter" id="count">∞</div><p class="muted">Reasons to celebrate you. And counting.</p>
+  <button class="secondary" onclick="toast('Officially certified: Rohit is a legend. 🏆')">VERIFY LEGEND STATUS</button>
+</section>
+</main>
+<footer>MADE WITH ❤️ FOR ROHIT · HAVE AN UNFORGETTABLE YEAR AHEAD</footer>
+<script>
+const canvas=document.getElementById('confetti'),ctx=canvas.getContext('2d');let pieces=[],running=false;
+function resize(){canvas.width=innerWidth*devicePixelRatio;canvas.height=innerHeight*devicePixelRatio;ctx.setTransform(devicePixelRatio,0,0,devicePixelRatio,0,0)}addEventListener('resize',resize);resize();
+function celebrate(){pieces=[];for(let i=0;i<190;i++)pieces.push({x:innerWidth/2+(Math.random()-.5)*220,y:innerHeight*.42,vx:(Math.random()-.5)*10,vy:Math.random()*-11-3,size:Math.random()*7+3,rot:Math.random()*6,spin:(Math.random()-.5)*.25,h:Math.random()*360,life:120});if(!running){running=true;draw()}toast('HAPPY BIRTHDAY ROHIT!!! 🎉')}
+function draw(){ctx.clearRect(0,0,innerWidth,innerHeight);pieces=pieces.filter(p=>p.life-->0&&p.y<innerHeight+30);pieces.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.vy+=.19;p.vx*=.992;p.rot+=p.spin;ctx.save();ctx.translate(p.x,p.y);ctx.rotate(p.rot);ctx.fillStyle=`hsl(${p.h},95%,68%)`;ctx.fillRect(-p.size/2,-p.size/2,p.size,p.size*.65);ctx.restore()});if(pieces.length)requestAnimationFrame(draw);else{running=false;ctx.clearRect(0,0,innerWidth,innerHeight)}}
+function openMessage(){document.getElementById('message').classList.add('show');document.getElementById('env').textContent='💝';document.getElementById('openMsg').textContent='SURPRISE UNLOCKED ✓';document.getElementById('openMsg').disabled=true;celebrate()}
+function blowCandle(){let f=document.getElementById('flame');if(f.classList.contains('off')){toast('Wish already sent to the universe ✨');return}f.classList.add('off');document.getElementById('wishText').textContent='Wish sent! May something wonderful happen this year. ✨';document.getElementById('blow').textContent='WISH SENT ✓';celebrate()}
+let toastTimer;function toast(t){let el=document.getElementById('toast');el.textContent=t;el.classList.add('show');clearTimeout(toastTimer);toastTimer=setTimeout(()=>el.classList.remove('show'),2600)}
+</script>
+</body>
+</html>
